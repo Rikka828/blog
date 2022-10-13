@@ -15,8 +15,7 @@
     </div>
     <el-divider />
     <div class="footer">
-        <p>Power by xxx</p>
-        <p>XICP 备xxxxx号-1</p>
+        <p>备案号:豫ICP备2022021658号-1</p>
     </div>
 </template>
 
@@ -24,7 +23,7 @@
 import { useRoute,useRouter } from "vue-router";
 import { GetBlogDetailRequest } from "../api";
 import { onMounted, reactive } from "vue";
-import { ElMessage, ArrowLeft } from 'element-plus'
+import { ElMessage } from 'element-plus'
 const route = useRoute()
 const router = useRouter()
 // 定义详情数据
